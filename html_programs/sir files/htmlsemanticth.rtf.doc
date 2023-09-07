@@ -1,0 +1,281 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fswiss\fprq2\fcharset0 Arial;}{\f2\fswiss\fprq2\fcharset0 Verdana;}{\f3\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red51\green51\blue51;\red255\green255\blue255;}
+{\*\generator Riched20 10.0.17763}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 css : cascading style sheet\par
+used to apply sheet to html tags\par
+types of style sheet\par
+1- inline style sheet : style is applied inside the html tag itself using style attribute\par
+for eg :\par
+<p style="text-align:center;" > welcome </p>\par
+-----------------------------------------------------------\par
+2- internal style sheet : used to apply style rules to the same html page using \par
+<style>  </style> tag\par
+example \par
+<html>\par
+<style>\par
+ h1 \{ text-align:center; color:red; \}\par
+ h2 \{text-align:center; color:blue; border:15px inset green;padding:10px; margin:10px; \}\par
+</style>\par
+<body>\par
+\tab <h1 >mkpits solutions </h1>\par
+\tab <h2 >mkpits solutions </h2>\par
+</body>\par
+</html>\par
+---------------\par
+3 : - external style sheet \par
+the style rules are defined in separate file which is saved with *.css extension\par
+then in html file used the <link ... > tag to use .css file\par
+\par
+h1 \{ text-align:center; color:red; \}\par
+ h2 \{text-align:center; color:blue; border:15px inset green;padding:10px; margin:10px; \}\par
+save this file as style.css\par
+\par
+now create a html page\par
+<html>\par
+<link href="style.css"  rel="stylesheet" >\par
+<body>\par
+\tab <h1 >mkpits solutions </h1>\par
+\tab <h2 >mkpits solutions </h2>\par
+</body>\par
+</html>\par
+save this page as s1.html \par
+---------------------------\par
+{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw5791\pich6782\picwgoal3283\pichgoal3845 
+89504e470d0a1a0a0000000d49484452000000db00000102080000000052aefdcf000000017352
+474200aece1ce90000000467414d410000b18f0bfc6105000000097048597300000ec300000ec3
+01c76fa86400000cfc49444154785eed9dbf73db4616c79fef6e266982ab52198de48a6824cd5c
+869e9bb17885e1266213a4d1aa91d208d75045625cc3991446739c14069bb089a8c66c4cb8919b
+886998e2422437a36b0456a9084e8a545eff01b8f716e02f47b2290ba0b89cfdcc887cd82534f8
+6af72d6cbcc7b7775efe022bca2777beb65373e568fc2935569155d626e6e40fff4b8f5686cd87
+382785b66fbe499b5686afbe52fe262d4a9b9c286d72a2b4c949b6da184b8db7d05befa556dea8
+719b87f03835de87e33035b2242b6d676ce7677a8f1ce68839c78f197323b2a06d3376ccc9c2b6
+b668829ec36c61b67b6de6f09f77d89968cf924cb4f1e36d5b6f35d08a767ad066288e3397c3f1
+0e0d077322885cf2c41d6c735c3aa38d5242c741eb85eb404f6bb4747b3bd19f215ffff6db6f5f
+c63761f064e3c1d3813077d79ec6f1c5dae3387ebc7111c7af3e7d10c7dfaf7d873d4fd62ee2ef
+d69e63efc6da4ff1803e123fa7e35d3c7c45e70e9e3ed87892fc9a9bf325aafa3a036dbb1b7889
+09bba8055f77e3982e1baf77edfb7840d2e29f50c2a79f92f504ada7e273f1636c484e4978be81
+676682d096c19cdcd79dc4c5103d7defc109431ce883fe45d8f66c7a2a139ad485ff6b8480532f
+ebd1941d9d822ee8e8fba99d0919687bf4b2c5d976fb5267b97f173d6fc7f1a2fb69c30cfaa495
+b7b7196fbd7c941e66c3cde724813eb781ae46b351bc5e24739278baf61cbd88e6e4037232f4b2
+9fe2c3c9444c4e79ba919daf1159cd4942affe5819a63661e82fe8adb7d983e0fee738ed4ef0e8
+fe198d2d753c8cc42466e3e787c3ca8fd5f1e4cc8aacee6fa07d514b2d41a5c7ce7a9e8db34eef
+79bd3371f7aa006bf76cf2b147864d8dbdcfc46791da175a6a654866dadee0f35a6833cfc07b5e
+f5be87e3f3a3f603e82deeb0b082bd5acbc0c6b09aad7bbd498ecfb97aa027d32ce4a9416da3e5
+238ac6660ee4fd9cebfefd54913132a82d35708dcc515a428eda6e1da54d4e94363959656d2b1f
+a35a4d548c4a52544c583a544c586294363951dae444699313a54d4ef2d2d6e9a4c65534f38802
+cf928b36ee97ec08a01e040e054d91c865cc0900c2ba380cea3c28b377c9bf2939688bdc926b76
+0f003c8ff55ffb658e5a4a3e808f62344f086afa220a5c6a661d059e259b18d584dee3f59db608
+f2c6eb9b17717cbcde8ee39d6d6c196c1ec6f1ee36760cd63dea1f78db9b9946a6266419a39ac0
+82d3532b0dca9806c0010c012a356cd10b384a56847ed60111c0d12bddaa4ff1fc9cc85cdb11ec
+a5a91778f1e93b9885a0ee96d1dfc0d44e004e8a494fe0383aceddbcc85c1b8e45507a7399f04b
+ccf3ef9220cdecf030b2d0c20587f1d6a98881e7430e6b89754acbc4b43aee165abf9e37ee92bd
+cf3b271a0aaad382d3288afe9cc8411b40b1d63547f392e8f3231411d29c0443ef744cf4be0807
+783c67f321176d14ff9ef6a3bbe07682fa5e72b0dfe134256b0739448167c949db2c7a2db259b3
+7a14d0edcc043dd799386141cfb9781f1624286191cfb9b4e242a5252c48dbada0b4c989d22627
+abac4dc584a544c5a8246579fc8d5c24b30b11fe96f9b3a0f7861edf647621f93c0b5a22943639
+51dae444699313a54d4e94363951dae444699313a54d4e94363951dae444699313a54d4e943639
+c94e5b137feaf7127b39c84c5b9dea37158f9283e5605e6ddc9f272fbc48053c2e21f4f34d4cbe
+9cf9b445f512e5de060eb37dd1e0db226d1ca10c724ab4ee41dd87a09e768ad4d7a81ea1592759
+4e2949305f28f3680b9c925f393720601d183a5444cc71fad02149d02935b1cd013f000fb579d8
+54c6ce66b90330f41c870f3d1bc038aff8a5f48fb140de195b6cefae1f9e09eb90b2c59fac0fe2
+36e58ec78fd18a377744db59ecad6313bd78d4f96a67f355dc5ba7ce43fa187276b8be4ba75dc5
+2dc4160347eb36d2a462dea77c641d7c4b6477ea27d0e1150da05a2d241f203a06766a154ea3b4
+8f9d22d11c311b5d6db143f74e6d052bd84bbfa26071b66577f0728340940ee321f441c83e98ca
+ce4d2a8c99d83595688ef0e65e604dfd0df2e79ddab45ad73ad9726895345b16749cd278c12c18
+a93107a1b3756275e96b028b638eb544ab746b51b98ceb5cb1767e7ac4eba0155b822a7c0462f9
+9bbe4168a225c2ae09747aad4bd37791ccb34ee26c6cb50a4360781f302a0607b34393946f35a1
+284a897147541a4b483a5fcce4f00e0b2d1cf345339f361ab22218be13046e68c13e94fdc02fa3
+5319a6e7069d3d8d6af4a583b7cff7fcc0f5e8fb2a63e8ecc533af36a262fa8c350f2c309e8183
+83d8c0a5a2663599cdd1fa4c73fe293e6534b8839f9aa9b2764b5c2b77e655af977c452abee85d
+2406b5cdbc2317a34f5d87dbce9dd18ac5743d308aa339374a219f4a2537469fba5daea74d2e94
+363951dae444699313a54d4e94363951dae444699313a54d4e94363951dae4443e6dc1bd7130e8
+9e08655e897cdaee1e89fa3573b0c4daa2cb4745af5c51aee60f51e7a5d5163a25caea1815649b
+84d823a1a19306d2a782f0cd9288a44d58526d3e2b47b573bcf0514136a83b7d08180ee5d01b02
+b8761f9aa2480f75f6c5ae5de7b5a82c62f02396eb7bc249011cee9f70735f3c932ff3530da272
+b1015bf8c3ed611705b68a61d9aa01df0b8f2a51092df09d9a088185271d6d9f2a9f89ba337fa1
+a687f86b978813ef8802e54445434314648361a46ba3b8eb0ba852cc1387e5854e01232b3811da
+8c1a3f715f8f925c96714e3e34bd348d65aa209b15964a4e3fd5168a600a05d67bc9ae5d41ea69
+beed99e3815a466d46a3abbb5b62c9981464abd6ccc8b7a928e265dca5185254df72f56e631cd4
+14737269fc6d845e439ff3cc06770b54b54cecbe695910343bbea8fba58b9593c46b5a8b4cc2ee
+e8955195c184e5fd5e7e7b37eead53bcf2627d371e6c53decdab754fb4b545bb87478915ef52f9
+c7a9cc9cf7882d2e14ab3555904dd7dc7ad07192e28e60197633a8d3fdcf346c6c67012e257fc8
+1658626dc85441b67feb1eb3835afa6f92670517dbd1d09e15b0bd5f4d33976659f25a115351f4
+c1c4442631f5d9f684659f9382a928ba3e539b6d12539f6d9f62d9b5dd04a54d4e94363951dae4
+44699313a54d4e94363951dae444699313a54d4e94363951dae4e4e6daf8284c3ba23ece23b865
+6eaa2d62fd344c3bc69352db25c1af210929fe7ac5935de48a80d922b886b6c01665dd79108c66
+e0285a99823da9858c0e6cfbd686716e6d7e99f103bc64678bb112c3d1a8338795cb0cd8bd2455
+27e919a975f1608b02bb079c95a7930716c87cda787dcb2d745b262af28f5a2d4bd44d08fa8d6a
+c5022bad7de1f807ad1aec2563ea360f5a8da2d3a12f4e770bee569a0bb260e6895179e3edeae2
+ddc7f4bab34b8d5489404436e925d9afee62f32c4663b07e4c1f3ba48dec9057ed9d6437bbb771
+798cea3d993f46154ebe8b8943035c7ccb39c9131893ec57679c8bc6008c0029d24676089d3eeb
+9a0b612e6d8d5a584a336e789ddddba28d22dfe4f57481812188cc08175b111fddb0d6101d0b65
+3e7f335ba77a5282c4f6e0a87a7af5923f22f9e27eab80f7f592a39f92ab2e9c79d749a3766e35
+1d08835aab72604cdfaa530a382b9192489e2b002f221fe11fc3695ae7b56b145ec89079b5518a
+d1f911ce3174359eec593a4b51a3b5d08f4472a3a9d11847ffaa6b7074bee8320a63e6d78614a1
+68b86556ea4f06ee2ed822b305b45ab8c5ca8e9924423c8b4a78b38b70e179f7f4cd8d3fffe36f
+00ff79941ebd9b9d0f7f07562d7e58f820d9a24e3322287cfc575c46ef59777effe0c801b853d4
+e1e39d3bbfc3a36bcdc5b3bf5feb42de0efdb2ff2e7b0ec67b22450ec64d50dae444699313a54d
+4e94363951dae444699313a54d4e94363951dae444699313a54d4e94363959e53daed59ef272a2
+fc4d3a26fe96949f5825441d0ce56f72a2b4c989d226274adb3509c799b1b74a1eda9c32d5d1ba
+8448a47c2d8c1cb485bed5ba7cafb412ed75b43832d616362993d22a5e51b2ee329ab9658d66aa
+adc3ca01043ef8948537da050ea8621d55b28bead0a38e71013b3ff099c383329584cb83ecb4f1
+66c9d65b0da1cd1b4e76810317afbd831e38f420c08e49013bdf7520d01a2ddd2ea5bb79654c46
+b96a83279bdb5eb2d19b48cf9ede058ed2b71f532325640fc4a1d8416e17db448af7c0dbde7c92
+9c9c1199e6aa397eb53b5d1872b20b5c876ad7e14f3af1d20276d609beea451079a37aa55bf569
+24b3252b6d07ba33b371dd6417b8a4769d564c978ce90276e302a081e3e8a2605aa664a5cd3c6d
+71569a7f3b4c51c02e81fb25c65ba7d9676b67b796141b5dd34d52b191c92e705a92ff3b4cb396
+352d4d414f0e01ea25d7ec36f248fdcd4e1bba0dbadce81f5b935de0cc88e66a10a5579f1c021b
+3f3a8cd0d9ae713bbc06596ac341196f8d36d905ced4ed66d0b4754ad2ee057caa805d42ed20af
+3cf46cb54d98ec02a77d5b70995b78860a0e02d6796b01bb6cc9f13957f8ba908e483414e531a9
+898c68987b667ddecfb9a62bd6a50e6508e3ca02761993a3b65b47699313a54d4e5659dbcac7a8
+561315a39294955e4b5efe925aab067cf27f89f28fbb206cffe90000000049454e44ae426082
+}\par
+semantic tags of html 5\par
+header \par
+
+\pard\cbpat2\widctlpar\sb300\sa150\cf1\f1\fs45\lang1033 HTML5 <header> Element\par
+
+\pard\cbpat2\widctlpar\sa150\sl315\slmult0\f2\fs23 The <header> element specifies a header for a document or section.\par
+The <header> element should be used as a container for introductory content.\par
+
+\pard\brdrb\brdrs\brdrw15\brsp20 \cbpat2\widctlpar\sa150\sl315\slmult0 You can have several <header> elements in one document.\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs22\lang9 example of header \par
+<html>\par
+\tab <style>\par
+\tab header \{ text-align : center;color:red; border:1px solid orange;  \}\par
+\tab </style>\par
+\tab\par
+\tab <header>\par
+\tab <h1> mkpits solutions </h1>\par
+\tab <h3>fortune mall, sitabuldi</h3>\par
+\tab <h5>nagpur, ms</h5>\par
+\tab </header>\par
+\tab\par
+<body>\par
+\tab\par
+</body>\par
+</html>\par
+\par
+--------------------------------\par
+\par
+
+\pard\cbpat2\widctlpar\sb300\sa150\cf1\f1\fs45\lang1033 HTML5 <nav> Element\par
+
+\pard\cbpat2\widctlpar\sa150\sl315\slmult0\f2\fs23 The <nav> element defines a set of navigation links.\par
+
+\pard\brdrb\brdrs\brdrw15\brsp20 \cbpat2\widctlpar\sa150\sl315\slmult0 The <nav> element is intended for large blocks of navigation links. However, not all links in a document should be inside a <nav> element!\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs22\lang9\par
+example\par
+<html>\par
+\tab <style>\par
+\tab header,nav \{ text-align : center;color:blue; border:1px solid gray; margin:10px; \}\par
+\tab a \{ text-decoration : none;\}\par
+\tab li \{ display : inline;\}\par
+\tab </style>\par
+\tab\par
+\tab <header>\par
+\tab <h1> mkpits solutions </h1>\par
+\tab <h3>fortune mall, sitabuldi</h3>\par
+\tab <h5>nagpur, ms</h5>\par
+\tab </header>\par
+\tab\par
+\tab <nav>\par
+\tab <ul>\par
+\tab <li>\par
+\tab <a href="inline1.html">home </a>\par
+\tab </li>\par
+\tab <li>\par
+\tab\tab <a href="about.html">about </a>\par
+\tab\tab </li>\par
+\tab <li>\par
+\tab\tab <a href="contact.html">contact </a>\par
+\tab\tab </li>\par
+\tab </ul>\par
+\tab </nav>\par
+\tab\par
+<body>\par
+\tab\par
+</body>\par
+</html>\par
+--------------------------------\par
+
+\pard\cbpat2\widctlpar\sb300\sa150\cf1\f1\fs45\lang1033 HTML5 <section> Element\par
+
+\pard\cbpat2\widctlpar\sa150\sl315\slmult0\f2\fs23 The <section> element defines a section in a document.\par
+According to W3C's HTML5 documentation: "A section is a thematic grouping of content, typically with a heading."\par
+
+\pard\brdrb\brdrs\brdrw15\brsp20 \cbpat2\widctlpar\sa150\sl315\slmult0 A Web site's home page could be split into sections for introduction, content, and contact information.\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs22\lang9\par
+
+\pard\cbpat2\widctlpar\sb300\sa150\cf1\f1\fs45\lang1033 HTML5 <article> Element\par
+
+\pard\cbpat2\widctlpar\sa150\sl315\slmult0\f2\fs23 The <article> element specifies independent, self-contained content.\par
+An article should make sense on its own, and it should be possible to read it independently from the rest of the web site.\par
+Examples of where an <article> element can be used:\par
+
+\pard\cbpat2{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent360{\pntxtb\'B7}}\widctlpar\fi-360\li720\sb100\sa100\sl315\slmult0 Forum post\par
+{\pntext\f3\'B7\tab}Blog post\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs22\lang9\par
+-------------------\par
+footer tag\par
+\par
+<html>\par
+\tab <style>\par
+\tab header,nav,footer \{ text-align : center;color:blue; border:1px solid gray; margin:10px; \}\par
+\tab section \{color:blue; border:1px solid gray; margin:10px; \}\par
+\tab a \{ text-decoration : none;\}\par
+\tab li \{ display : inline;\}\par
+\tab </style>\par
+\tab\par
+\tab <header>\par
+\tab <h1> mkpits solutions </h1>\par
+\tab <h3>fortune mall, sitabuldi</h3>\par
+\tab <h5>nagpur, ms</h5>\par
+\tab </header>\par
+\tab\par
+\tab <nav>\par
+\tab <ul>\par
+\tab <li>\par
+\tab <a href="inline1.html">home </a>\par
+\tab </li>\par
+\tab <li>\par
+\tab\tab <a href="about.html">about </a>\par
+\tab\tab </li>\par
+\tab <li>\par
+\tab\tab <a href="contact.html">contact </a>\par
+\tab\tab </li>\par
+\tab </ul>\par
+\tab </nav>\par
+\tab <!-- mkpits section starts -->\par
+\tab\par
+\tab\par
+\tab <section>\par
+\tab <div style="width:100%;float:left;">\par
+\tab <div style="width:50%;float:left;">\par
+\tab <h1>WELCOME TO MKP IT SERVICES </h1>\par
+\tab <article>\par
+\tab MKP IT Services is a leading training, job and staffing services provider in Nagpur. We have over a decade of presence now. Previously we were known as MK Placements and Education Services We also provide services in Pune, Hyderabad, Bangalore, Mumbai, Indore, Bhopal and more cities. Our valuable services are:\par
+\tab </article>\par
+\tab </div>\par
+\tab\tab <div style="width:50%;float:left;">\par
+\tab\tab <img src="about.jpg" style="width:100%;" />\par
+\tab\tab </div>\par
+\tab </div>\par
+\tab </section>\par
+\tab\par
+\tab <footer>\par
+\tab\'a9 Copyright MKP IT Services. All Rights Reserved\par
+Designed and Maintained by MKP IT Services Pvt. Ltd.\par
+\tab </footer>\par
+\tab\par
+<body>\par
+\tab\par
+</body>\par
+</html>\par
+}
+ 
