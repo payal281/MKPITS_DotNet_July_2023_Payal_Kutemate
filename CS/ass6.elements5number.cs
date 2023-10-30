@@ -19,7 +19,6 @@ class Program
             {
                 max = arr[i];
             }
-
             if (arr[i] < min)
             {
                 min = arr[i];
