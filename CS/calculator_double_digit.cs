@@ -1,4 +1,5 @@
 ﻿using System;
+
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,20 +19,21 @@ namespace WindowsFormsApp33
             InitializeComponent();
         }
 
-       
+        int pn = 0;
+        char op;
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "")
+            if(textBox1.Text=="")
             {
                 textBox1.Text = "1";
+
             }
             else
             {
-                if (op != null)
+                if(op!=null)
                 {
-                    if (textBox1.Text == "+" || textBox1.Text == "-" || textBox1.Text == "*" || textBox1.Text == "/")
+                    if(textBox1.Text=="+"|| textBox1.Text == "-" || textBox1.Text == "*" || textBox1.Text == "/" )
                     {
-
                         textBox1.Clear();
                         textBox1.Text = textBox1.Text + "1";
                     }
@@ -42,14 +44,16 @@ namespace WindowsFormsApp33
                 }
                 else
                 {
-
                     textBox1.Text = textBox1.Text + "1";
-
                 }
+                
+
             }
+            
+
+            
+            
         }
-
-
 
 
         private void Form1_Load(object sender, EventArgs e)
@@ -119,11 +123,7 @@ namespace WindowsFormsApp33
                 }
             }
         }
-        int pn = 0;
-        char op;
-
        
-
         private void button13_Click(object sender, EventArgs e)
         {
             pn=Convert.ToInt32(textBox1.Text);
