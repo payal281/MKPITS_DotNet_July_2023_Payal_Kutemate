@@ -1,0 +1,12 @@
+create table Userdetails(userid int,username varchar(20),password1 varchar(20),emailid varchar(20),gender varchar(20),city varchar(20),country varchar(20))
+insert into userdetails values(1,'amit','2','amit52@gmail.com','pune','india')
+insert into userdetails values(2,'pratiksha','4','pratiksha2@gmail.com','pune','india')
+insert into userdetails values(3,'viswa','3','viswa5@gmail.com','hyd','india')
+insert into userdetails values(4,'kittu','1','kittu4@gmail.com','mumbai','india')
+insert into userdetails values(5,'kritika','5','kritika6@gmail.com','nagpur','india')
+insert into userdetails values(6,'sneha','6','sneha@gmail.com','pune','india')
+insert into userdetails values(7,'payal','8','payal22@gmail.com','nagpur','india')
+insert into userdetails values(8,'monu','14','monu8@gmail.com','nashik','india')
+insert into userdetails values(9,'sharu','9','sharu6@gmail.com','kolhapur','india')
+insert into userdetails values(10,'shivanya','12','shivanya20@gmail.com','pune','india')
+select *from userdetails 
