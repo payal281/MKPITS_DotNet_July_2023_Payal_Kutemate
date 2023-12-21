@@ -5,4 +5,3 @@ insert into stores(store_name,phone,email,street,city,state,zip_code) values ('d
 insert into stores(phone,email) values('3222','ab@gmail.com')
 insert into stores(store_name,phone,email) values('radha','3222','ab@gmail.com')
 
-
