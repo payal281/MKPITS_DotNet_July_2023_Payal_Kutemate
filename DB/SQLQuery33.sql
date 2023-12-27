@@ -1,0 +1,16 @@
+create table products3(product_id int identity,region varchar(50),product varchar(50),productyr varchar(10),quantity int,price int );
+insert products3 values ('East','computer','2020',130,50000),
+('South','computer','2020',450,50000),
+('North','computer','2020',250,50000),
+('East','Hard Disk','2020',130,50000),
+('East','Hard Disk','2020',190,40000), 
+('West','Computer','2021',250,5500), 
+('South','Hard Disk','2021',550,4400), 
+('West','Hard Disk','2021',650,7500), 
+('East','Pen Drive','2021',120,800), 
+('North','Mouse','2019',160,1500), 
+('South','Pen Drive','2019',270,750), 
+('East','Mouse','2019',2000,1200), 
+('West','Pen Drive','2019',190,650);
+select *from products3
+select sum(price) as "total price" from products3
